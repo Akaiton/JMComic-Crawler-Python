@@ -3,7 +3,8 @@ from jmcomic.cl import JmcomicUI
 
 # 下方填入你要下载的本子的id，一行一个，每行的首尾可以有空白字符
 jm_albums = '''
-
+import jmcomic  # 导入此模块，需要先安装.
+jmcomic.download_album('422866')  # 传入要下载的album的id，即可下载整个album到本地.
 
 
 '''
